@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+#cube {
+    width: 100px;
+    height: 100px;
+    background-color: #4caf50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease;
+}
+
+#cube:active {
+    transform: scale(0.95);
+}
+
+#click-count, #level {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.leaderboard {
+    margin-top: 30px;
+}
+
+.leaderboard h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#leaderboard-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#leaderboard-list li {
+    font-size: 16px;
+    margin: 5px 0;
+}
